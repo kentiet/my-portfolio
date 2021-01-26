@@ -1,0 +1,20 @@
+.logo {
+    font-weight: bolder;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+
+    .l1 {
+        padding: 3px;
+    }
+
+    .l2 {
+        margin-top: 10px;
+        padding: 3px;
+    }
+
+    .l3 {
+        margin-top: 20px;
+        padding: 3px;
+    }
+}

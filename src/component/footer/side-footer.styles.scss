@@ -1,0 +1,30 @@
+.footer {
+    height: 100%;
+    width: 10%;
+
+    .profile {
+        position: absolute;
+        bottom: 0;
+        margin-left: auto;
+
+        span {
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            transform: rotate(270deg);
+            font-weight: bold;
+            font-size: larger;
+            justify-content: flex-start;
+            width: fit-content;
+        }
+
+        span:hover {
+            cursor: pointer;
+            color: black;
+            text-decoration: underline;
+            font-size: xx-large;
+            transition: all 800ms;
+        }
+    
+    }
+}
