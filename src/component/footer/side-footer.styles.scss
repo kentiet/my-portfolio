@@ -8,19 +8,20 @@
         margin-left: auto;
 
         span {
+            color:  white;
             padding: 15px;
             display: flex;
             flex-direction: column;
             transform: rotate(270deg);
             font-weight: bold;
-            font-size: larger;
+            font-size: medium;
             justify-content: flex-start;
             width: fit-content;
         }
 
         span:hover {
             cursor: pointer;
-            color: black;
+            color: #FFCC73;
             text-decoration: underline;
             font-size: xx-large;
             transition: all 800ms;

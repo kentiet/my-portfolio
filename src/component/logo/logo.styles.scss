@@ -3,10 +3,12 @@
     font-size: 2rem;
     display: flex;
     flex-direction: row;
+    color:  #FFCC73;
 
     .l1 {
         padding: 3px;
     }
+
 
     .l2 {
         margin-top: 10px;
@@ -16,5 +18,10 @@
     .l3 {
         margin-top: 20px;
         padding: 3px;
+    }
+
+    &:hover {
+        cursor: pointer;
+        color:#fff;
     }
 }

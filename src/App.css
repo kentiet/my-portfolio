@@ -1,7 +1,10 @@
-.vl {
-    border-left: 1px solid #fffc;
-    height: 100%;
-    position: absolute;
-    left: 10%;
-    top: 0;
-  }
+.home-profile {
+    
+}
+
+.profile-img {
+    box-shadow: rgba(255, 255, 255, 0.15) 0px 2px 8px;}
+
+section {
+    height: 760px;
+}
