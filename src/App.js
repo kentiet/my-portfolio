@@ -8,7 +8,9 @@ import {mysqlIcon, reactIcon, nodeIcon, jsIcon, gitIcon, csharpIcon, postgreIcon
 
 function App() {
 
-  const skills = [mysqlIcon, reactIcon, nodeIcon, jsIcon, gitIcon, csharpIcon, postgreIcon];
+  // const skills = [mysqlIcon, reactIcon, nodeIcon, jsIcon, gitIcon, csharpIcon, postgreIcon];
+  const skills = ['MySQL', 'React', 'Node', 'JS', 'Git', 'CSharp', 'Postgre'];
+
 
   return (
     <div className="container-fluid">

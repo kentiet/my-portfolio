@@ -3,7 +3,9 @@ import './skill-box.styles.scss'
 
 const SkillBox = ({skillIcon}) => (
     <div className="card-item">
-        {skillIcon}
+        <div className="icon">
+            {skillIcon}
+        </div>
     </div>
 )
 
