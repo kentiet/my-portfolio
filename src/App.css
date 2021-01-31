@@ -1,10 +1,20 @@
-.home-profile {
-    
-}
-
 .profile-img {
     box-shadow: rgba(255, 255, 255, 0.15) 0px 2px 8px;}
 
 section {
-    height: 760px;
+   min-height: 100vh;
 }
+
+.footer-contract {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-email a {
+    color:  #FFCC73;
+    font-weight: 100px;
+    font-size: medium;
+}
+

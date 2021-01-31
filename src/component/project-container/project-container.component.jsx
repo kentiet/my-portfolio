@@ -6,9 +6,8 @@ import Tilt from 'react-tilt'
 import Project from '../project/project.component'
 
 const ProjectContainer = ({projects}) => (
-    <div className='project-container'>
-        <h2 class="f3 fw4 pa3 mv0">My gigs</h2>
-        <div class="cf pa2">
+
+        <div className='project-container'>
             {
                 projects.map((project, i) => {
                     // console.log(project)
@@ -24,7 +23,6 @@ const ProjectContainer = ({projects}) => (
             }
 
         </div>
-    </div>
 )
 
 export default ProjectContainer;
