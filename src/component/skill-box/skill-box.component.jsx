@@ -1,11 +1,11 @@
 import { React } from "react";
 import './skill-box.styles.scss'
 
-const SkillBox = ({skillIcon}) => (
-    <div className="card-item">
-        <div className="icon">
-            {skillIcon}
-        </div>
+const SkillBox = ({skill}) => (
+    <div className='card-item'>
+            <div className='icon'>
+                {skill}
+            </div>
     </div>
 )
 

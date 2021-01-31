@@ -7,7 +7,7 @@ const SkillBoxList = ({skills}) => (
     <div className="skill-list">
         {
             skills.map((skill, i) => {
-                return <SkillBox skillIcon={skill} />
+                return <SkillBox key={i} skill={skill}/>
             })
         }
     </div>

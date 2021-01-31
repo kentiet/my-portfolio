@@ -9,9 +9,9 @@ const NavBar = () => (
        <Logo />
     </a>
     <div className="db dtc-l v-mid w-100 w-75-l tc tr-l">
-      <a className="animate__animated animate__fadeInRight nav-link link f6 dib mr4 mr5-l" href="#">&#60; home &#62;</a>
-      <a className="animate__animated animate__fadeInRight nav-link link f6 dib mr4 mr5-l" href="#">&#60; experiences &#62;</a>
-      <a className="animate__animated animate__fadeInRight nav-link link f6 dib mr4 mr5-l" href="#">&#60; projects &#62;</a>
+      <a className="animate__animated animate__fadeInRight nav-link link f6 dib mr4 mr5-l" href="#home">&#60; home &#62;</a>
+      <a className="animate__animated animate__fadeInRight nav-link link f6 dib mr4 mr5-l" href="#experiences">&#60; experiences &#62;</a>
+      <a className="animate__animated animate__fadeInRight nav-link link f6 dib mr4 mr5-l" href="#projects">&#60; projects &#62;</a>
     </div>
   </nav>
 )
