@@ -1,8 +1,18 @@
+.content-wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .profile-img {
     box-shadow: rgba(255, 255, 255, 0.15) 0px 2px 8px;}
 
 section {
-   min-height: 100vh;
+   min-height: 90vh;
+   width: 90%;
+}
+
+.experiences {
+    min-height: 50vh;
 }
 
 .footer-contract {
@@ -10,11 +20,53 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
+    min-height: 10vh;
+}
+
+.contact-text a  {
+    text-decoration: none;
+    background: -webkit-linear-gradient(180deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+
+
+.contact-text > a:hover {
+    
+    cursor: pointer;
 }
 
 .contact-email a {
     color:  #FFCC73;
     font-weight: 100px;
     font-size: medium;
+    text-decoration: none;
 }
 
+.top-corner .bottom-corner {
+    display: flex;
+
+}
+
+.top-corner {
+    background: -webkit-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;   
+    margin-left: 10rem;
+    justify-content: flex-start;
+    margin-bottom: .3rem;
+}
+
+.bottom-corner {
+    background: -webkit-linear-gradient(180deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;   
+    position: absolute;
+    right: 0;
+    margin-right: 15rem;
+    justify-content: flex-end;
+    margin-top: .3rem;
+}

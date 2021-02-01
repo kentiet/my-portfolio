@@ -12,7 +12,7 @@ const ProjectContainer = ({projects}) => (
                 projects.map((project, i) => {
                     // console.log(project)
                     return <Fragment>
-                                <Tilt className="Tilt" options={{ max : 25 }}>
+                                <Tilt className="Tilt" options={{ max : 35 , scale: 1.2 , transition: true, easing: "cubic-bezier(.03,.6,0.4,.3)"}}>
                                 <Project title={project.title}
                                     imgSrc={project.imgSrc}
                                     usedSkill={project.usedSkill}

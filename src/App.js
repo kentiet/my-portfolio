@@ -32,29 +32,31 @@ function App() {
 
   return (
     <div className="container-fluid">
-      {/* <h1 className='animate__animated animate__bounce'>test</h1> */}
       <div className='row'>
-        <NavBar />
-      </div>
-      <div className='row'>
-          <LeftBar />
-          <div className='col-12 tc body-content'>
+          <div className='col-12 content-wrapper'>
             <section id='home' data-aos="fade-right">
+              <NavBar />
+              <LeftBar />
               <IntroDiv />
             </section>
-            <section id='experienced' data-aos="fade-left">
+            <section id='experiences' data-aos="fade-left">
               <SkillBoxList skills={skills}/>
             </section>
             <section id='projects' data-aos="fade-right">
-              <h2 class="f3 fw4 pa3 mv0">My gigs</h2>
+            <div className='top-corner'>
+                <span># projects</span>
+              </div>
               <ProjectContainer projects={projects}/>
+              <div className='bottom-corner'>
+                <span>  projects #</span>
+              </div>
             </section>
           </div>
-      </div>
-      <div className='row footer-contract animate__animated animate__backInUp' data-aos="fade-up">
-        ken.tietkien@gmail.com
-        <br />
-        <p>Copyright &#169; <span className='contact-email'><a href='mailto:ken.tietkien@gmail.com'>Ken TIet</a></span></p>
+          <div className='row footer-contract animate__animated animate__backInUp' data-aos="fade-up">
+            <h5 className='contact-text'><a href='mailto:ken.tietkien@gmail.com'>Contact Me: ken.tietkien@gmail.com</a></h5>
+            <br />
+            <p>Copyright &#169; <span className='contact-email'><a href='mailto:ken.tietkien@gmail.com'>Ken TIet</a></span></p>
+          </div>
       </div>
     </div>
   );

@@ -6,6 +6,13 @@ span, .ml2 {
   color:#FFCC73;
 }
 
+.ml3 {
+  background: -webkit-linear-gradient(180deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;   
+}
+
 span, .ml2 .letter {
   display: inline-block;
   line-height: 1em;
