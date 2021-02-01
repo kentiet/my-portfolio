@@ -35,4 +35,9 @@
         cursor: pointer;
         color:#fff;
     }
+
+    @media (max-width: 400px) {
+        font-size: .8rem;
+    }
 }
+

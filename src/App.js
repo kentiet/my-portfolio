@@ -43,13 +43,9 @@ function App() {
               <SkillBoxList skills={skills}/>
             </section>
             <section id='projects' data-aos="fade-right">
-            <div className='top-corner'>
-                <span># projects</span>
-              </div>
+
               <ProjectContainer projects={projects}/>
-              <div className='bottom-corner'>
-                <span>  projects #</span>
-              </div>
+
             </section>
           </div>
           <div className='row footer-contract animate__animated animate__backInUp' data-aos="fade-up">

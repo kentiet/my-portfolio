@@ -4,9 +4,14 @@
     justify-content: center;
     margin-top: 38vh;
     width: 48vh;
-    // align-content: center;
-    border-radius: 3%;
-    // box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+
+    // @media (max-width: 400px) {
+    //     display: flex;
+    //     flex-direction: column;
+    //     justify-content: center;
+    //     width: 20vh;
+    // }
+
 }
 
 .bi-arrow-bar-down {
