@@ -6,14 +6,18 @@
         bottom: 40%;
         left: 2%;
         
-        span a {
-            color:  whitesmoke;
-            padding: 25px;
+        span {
             display: flex;
             flex-direction: column;
+        }
+        
+        a {
+            text-decoration: none;
+            color:  whitesmoke;
+            padding: 20px;
             transform: rotate(270deg);
             font-weight: bold;
-            font-size: x-large;
+            font-size: large;
             justify-content: flex-start;
             width: fit-content;
         }
