@@ -74,7 +74,7 @@ section {
     margin-top: .3rem;
 }
 
-@media (max-width: 400px) {
+@media only screen and  (max-width: 400px) {
     section {
         min-height: 60vh;
         width: 90%;
