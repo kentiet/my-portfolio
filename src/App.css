@@ -1,6 +1,8 @@
 .content-wrapper {
-    margin-left: 5%;
-    margin-right: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .profile-img {
@@ -8,11 +10,12 @@
 
 section {
    min-height: 90vh;
-   width: 90%;
+   width: 80%;
 }
 
 #experiences {
-    min-height: 50vh;
+    min-height: 80vh;
+    height: 30vh;
 }
 
 .footer-contract {
@@ -54,7 +57,7 @@ section {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;   
-    margin-left: 10rem;
+    margin-left: 4.5rem;
     justify-content: flex-start;
     margin-bottom: .3rem;
 }
@@ -73,12 +76,18 @@ section {
 
 @media (max-width: 400px) {
     section {
-        min-height: 150vh;
+        min-height: 60vh;
         width: 90%;
      }
 
-     #experiences, #project {
-        margin-top: 20px;
+     #experiences{
+        min-height: 200vh;
+        margin-top: 3vh;
+    }
+
+    #project {
+        min-height: 100vh;
+        margin-top: 100vh; 
     }
 
     .top-corner {
@@ -87,5 +96,9 @@ section {
     
     .bottom-corner {
         margin-right: 3rem;
+    }
+
+    .footer-contract {
+        margin-top: 30%;
     }
 }

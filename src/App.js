@@ -33,11 +33,11 @@ function App() {
   return (
     <div className="container-fluid">
       <div className='row'>
-          <div className='col-12 content-wrapper'>
+          <div className='content-wrapper'>
             <section id='home' data-aos="fade-right">
               <NavBar />
-              <LeftBar />
               <IntroDiv />
+              <LeftBar />
             </section>
             <section id='experiences' data-aos="fade-left">
               <SkillBoxList skills={skills}/>
@@ -50,7 +50,6 @@ function App() {
           </div>
           <div className='row footer-contract animate__animated animate__backInUp' data-aos="fade-up">
             <h5 className='contact-text'><a href='mailto:ken.tietkien@gmail.com'>Contact Me: ken.tietkien@gmail.com</a></h5>
-            <br />
             <p>Copyright &#169; <span className='contact-email'><a href='mailto:ken.tietkien@gmail.com'>Ken TIet</a></span></p>
           </div>
       </div>
