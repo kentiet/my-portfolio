@@ -34,6 +34,14 @@
             justify-content: center;
         }
     }
+
+    @media only screen and  (max-width: 763px) and (min-width: 401px) {
+        .project-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
 }
 
 

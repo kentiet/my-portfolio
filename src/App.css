@@ -74,7 +74,7 @@ section {
     margin-top: .3rem;
 }
 
-@media only screen and  (max-width: 400px) {
+@media only screen and  (max-width: 420px) {
     section {
         min-height: 60vh;
         width: 90%;
@@ -96,6 +96,27 @@ section {
     
     .bottom-corner {
         margin-right: 3rem;
+    }
+
+    .footer-contract {
+        margin-top: 30%;
+    }
+}
+
+@media only screen and  (max-width: 763px) and (min-width: 401px) {
+    section {
+        min-height: 60vh;
+        width: 90%;
+     }
+
+     #experiences{
+        min-height: 100vh;
+        margin-top: 3vh;
+    }
+
+    #project {
+        min-height: 100vh;
+        margin-top: 150vh; 
     }
 
     .footer-contract {
