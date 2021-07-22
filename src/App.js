@@ -32,7 +32,8 @@ function App() {
 
   return (
     <div className="container-fluid">
-      <div className='row'>
+      <p>Hello</p>
+      {/* <div className='row'>
           <div className='content-wrapper'>
             <section id='home' data-aos="fade-right">
               <NavBar />
@@ -52,7 +53,7 @@ function App() {
             <h5 className='contact-text'><a href='mailto:ken.tietkien@gmail.com'>Contact Me: ken.tietkien@gmail.com</a></h5>
             <p>Copyright &#169; <span className='contact-email'><a href='mailto:ken.tietkien@gmail.com'>Ken TIet</a></span></p>
           </div>
-      </div>
+      </div> */}
     </div>
   );
 }

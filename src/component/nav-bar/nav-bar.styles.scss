@@ -44,14 +44,15 @@ $gradient-color: -webkit-linear-gradient(180deg, hsla(333, 100%, 53%, 1) 0%, hsl
     &:hover {
         cursor: pointer;
         background: linear-gradient(60deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+        text-decoration: underline;
     }
 }
 
 @media only screen and  (max-width: 400px){
     .nav-bar {
         display: flex;
-        flex-direction: column;
-        font-size: 100;
+        flex-direction: row;
+        font-size: 10px;
     }
 }
 
@@ -59,10 +60,11 @@ $gradient-color: -webkit-linear-gradient(180deg, hsla(333, 100%, 53%, 1) 0%, hsl
 
 }
 
-@media only screen and  (max-width: 763px) and (min-width: 401px) {
+@media (max-width: 763px) and (min-width: 401px) {
     .nav-bar {
         display: flex;
-        flex-direction: column;
-        font-size: 100;
+        flex-direction: row;
+        font-size: 10px;
     }
+
 }

@@ -12,9 +12,9 @@ const NavBar = () => (
       <a className="animate__animated animate__fadeInRight nav-link link " href="#home">&#60; home &#62;</a>
       <a className="animate__animated animate__fadeInRight nav-link link  " href="#experiences">&#60; experiences &#62;</a>
       <a className="animate__animated animate__fadeInRight nav-link link  " href="#projects">&#60; projects &#62;</a>
-      <div className="get-in-touch-wrapper animate__animated animate__fadeInRight ">
+      {/* <div className="get-in-touch-wrapper animate__animated animate__fadeInRight ">
         <div className='get-in-touch'>Get in touch</div>
-      </div>
+      </div> */}
     </div>
   </nav>
 )
