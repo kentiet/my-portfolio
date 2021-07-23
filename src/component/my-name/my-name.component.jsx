@@ -12,22 +12,27 @@ class MyName extends Component {
           targets: '.ml3 .letter',
           opacity: [0,1],
           easing: "easeInOutQuad",
-          duration: 2250,
-          delay: (el, i) => 150 * (i+1)
+          duration: 2000,
+          delay: (el, i) => 20 * (i+1)
         }).add({
           targets: '.ml3',
           opacity: 0,
           duration: 1000,
           easing: "easeOutExpo",
-          delay: 1000
+          delay: 3000
         });
     }
 
     render(){
         return (
-          <div className='name'>
-              <span>I'm a</span><h1 class="ml3">&#60; developer  /&#62;</h1>
-          </div>
+          <>
+            <div className='name'>
+                <h1>Ken Tiet:</h1>
+            </div>
+            <div className='job-desc'> 
+              <h2 class="ml3">A Professional Full-Stack Developer</h2>
+            </div>
+          </>
         )
     }
 }

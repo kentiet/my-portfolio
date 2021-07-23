@@ -1,8 +1,8 @@
 import './App.css';
 import IntroDiv from './component/intro-div/intro-div.component'
-import LeftBar from '../src/component/left-bar/left-bar.component'
+// import LeftBar from '../src/component/left-bar/left-bar.component'
 import NavBar from '../src/component/nav-bar/nav-bar.component'
-import SkillBoxList from '../src/component/skill-box-list/skill-box-list.component'
+// import SkillBoxList from '../src/component/skill-box-list/skill-box-list.component'
 import ProjectContainer from '../src/component/project-container/project-container.component'
 
 import AOS from 'aos';
@@ -14,7 +14,7 @@ function App() {
 
   AOS.init();
 
-  const skills = ['MySQL', 'React', 'Node', 'JS', 'Git', 'CSharp', 'Postgre'];
+  // const skills = ['MySQL', 'React', 'Node', 'JS', 'Git', 'CSharp', 'Postgre'];
   const projects = [
     {
       title: 'Free 2 Play Games',
@@ -32,28 +32,27 @@ function App() {
 
   return (
     <div className="container-fluid">
-      <p>Hello</p>
-      {/* <div className='row'>
+      <div className='row'>
           <div className='content-wrapper'>
             <section id='home' data-aos="fade-right">
               <NavBar />
               <IntroDiv />
-              <LeftBar />
+              {/* <LeftBar /> */}
             </section>
-            <section id='experiences' data-aos="fade-left">
+            {/* <section id='experiences' data-aos="fade-left">
               <SkillBoxList skills={skills}/>
-            </section>
+            </section> */}
             <section id='projects' data-aos="fade-right">
 
               <ProjectContainer projects={projects}/>
 
             </section>
           </div>
-          <div className='row footer-contract animate__animated animate__backInUp' data-aos="fade-up">
+          {/* <div className='row footer-contract animate__animated animate__backInUp' data-aos="fade-up">
             <h5 className='contact-text'><a href='mailto:ken.tietkien@gmail.com'>Contact Me: ken.tietkien@gmail.com</a></h5>
             <p>Copyright &#169; <span className='contact-email'><a href='mailto:ken.tietkien@gmail.com'>Ken TIet</a></span></p>
-          </div>
-      </div> */}
+          </div> */}
+      </div>
     </div>
   );
 }

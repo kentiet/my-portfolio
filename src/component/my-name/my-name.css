@@ -1,9 +1,12 @@
-span, .ml2 {
-  font-weight: 900;
-  font-size: 1.5em;
+.name {
+  display: flex;
+  padding-left: 18px;
+  font-size: 1.2em;
 }
-.ml2 {
-  color:#FFCC73;
+
+.job-desc {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .ml3 {
@@ -13,18 +16,16 @@ span, .ml2 {
   -webkit-text-fill-color: transparent;   
 }
 
-span, .ml2 .letter {
-  display: inline-block;
-  line-height: 1em;
-}
-
-span {
-  padding-top: 10px;
-}
-
-@media only screen and (max-width: 400px) {
-  span, .ml2 {
-    font-weight: 900;
-    font-size: 1em;
+@media only screen and (max-width: 900px) {
+  .name {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+  }
+  
+  .job-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
   }
 }

@@ -1,59 +1,9 @@
-$gradient-color: -webkit-linear-gradient(180deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-
-.nav-wrapper {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1rem;
-
-    .nav-bar {
-        margin-top: 1rem;
-        display: flex;
-        justify-content: space-around;
-        padding: 0.2rem;
-
-        .nav-link {
-            color:  white;
-            margin-left: 1.2rem;
-        
-            &:hover {
-                cursor: pointer;
-                background: -webkit-linear-gradient(180deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-                -webkit-background-clip: text;
-                background-clip: text;
-                -webkit-text-fill-color: transparent;   
-                width: fit-content;
-            }
-        }
-    }
-}
-
-
-.get-in-touch-wrapper {
-    position: relative;
-    background: linear-gradient(to right, red, purple);
-    padding: 1px;
-    border-radius: 10px;
-    margin-left: 5rem;
-    
-    .get-in-touch {
-        padding: 0.5rem;
-        background: #191D28;
-        border-radius: 10px;
-    }
-
-    &:hover {
-        cursor: pointer;
-        background: linear-gradient(60deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-        text-decoration: underline;
-    }
+.nav-item {
+    margin-left: 2rem;
 }
 
 @media only screen and  (max-width: 400px){
-    .nav-bar {
-        display: flex;
-        flex-direction: row;
-        font-size: 10px;
-    }
+
 }
 
 @media (max-width: 765) and (min-width: 410) {
@@ -61,10 +11,5 @@ $gradient-color: -webkit-linear-gradient(180deg, hsla(333, 100%, 53%, 1) 0%, hsl
 }
 
 @media (max-width: 763px) and (min-width: 401px) {
-    .nav-bar {
-        display: flex;
-        flex-direction: row;
-        font-size: 10px;
-    }
 
 }

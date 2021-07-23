@@ -10,21 +10,13 @@
             display: flex;
         }
         
-        .top-corner {
-            color: #FFCC73;
-            margin-left: 30rem;
-            justify-content: flex-start;
-            margin-bottom: .3rem;
-        }
-        
-        .bottom-corner {
-            color: #FFCC73;
-            position: absolute;
-            right: 0;
-            margin-right: 30rem;
-            justify-content: flex-end;
-            margin-top: .3rem;
-        }
+        // .top-corner {
+        //     color: #000;
+        //     margin-left: 30rem;
+        //     justify-content: flex-start;
+        //     margin-bottom: .3rem;
+        //     font-weight: 700;
+        // }
     }
 
     @media only screen and  (max-width: 400px) {
