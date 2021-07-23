@@ -1,14 +1,14 @@
 body {
   /* display: flex;
   justify-content: center; */
-  background-color: #fff;
+  background-color: #e6e6e6;
   color: #000;
   font-family: 'Roboto Mono', monospace;
   font-weight: 300;
 }
 
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */

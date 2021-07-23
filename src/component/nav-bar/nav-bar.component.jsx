@@ -7,22 +7,25 @@ const NavBar = () => (
 
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
-    <a className="v-mid link dim w-25-l tc tl-l mb2 mb0-l" href='kentiet.com'>
+      <a className="v-mid link dim w-25-l tc tl-l mb2 mb0-l" href='kentiet.com'>
         <Logo />
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse" >
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">01: About Me</a>
+            <a class="nav-link active" aria-current="page" href="#home">01: Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">02: Experiences</a>
+            <a class="nav-link" href="#projects">02: My Works</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">03: My Works</a>
+            <a class="nav-link" href="#work-experience">03: About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-me">04: Contact</a>
           </li>
         </ul>
       </div>

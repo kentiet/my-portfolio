@@ -1,0 +1,79 @@
+.aboutme-body{ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: auto;
+
+  .aboutme-content-header { 
+    font-weight: 700;
+  }
+
+  .aboutme-img { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    filter: grayscale(20%);
+    width: 280px;
+  }
+
+  .profile-body { 
+    width: 800px;
+  }
+}
+
+.work-exp-body { 
+  margin-top: 10%;
+
+  .work-content-header { 
+    font-weight: 700;
+  }
+
+  .work-exp-wrapper { 
+
+    .title-wrapper { 
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .work-exp-header { 
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      font-weight: 700;
+    }
+  
+    .work-exp-title { 
+      text-decoration: underline;
+    }
+  
+    .work-exp-company { 
+      font-weight: 300;
+      font-size: 15px;
+      font-style: italic;
+    }
+  
+    .work-exp-task { 
+      font-size: 15px;
+    }
+  }
+}
+
+
+@media only screen and  (max-width: 1450px) and (min-width: 401px) {
+  .aboutme-body { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .aboutme-img { 
+      margin-top: 5%;
+      margin-left: auto;
+      margin-right: auto;
+
+      img { 
+        border-radius: 50%;
+      }
+      
+    }
+  }
+}

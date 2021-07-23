@@ -1,16 +1,22 @@
 .content-wrapper {
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .profile-img {
     box-shadow: rgba(255, 255, 255, 0.15) 0px 2px 8px;}
 
 section {
-   min-height: 90vh;
+   min-height: 80vh;
    width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   /* overflow: auto; */
 }
 
 #experiences {
@@ -18,68 +24,20 @@ section {
     height: 30vh;
 }
 
-.footer-contract {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    min-height: 10vh;
-}
-
-.contact-text a  {
-    text-decoration: none;
-    background: -webkit-linear-gradient(180deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;   
-}
-
-
-.contact-text > a:hover {
-    
-    cursor: pointer;
-}
-
-.contact-email a {
-    color:  #FFCC73;
-    font-weight: 100px;
-    font-size: medium;
-    text-decoration: none;
-}
-
-/* .top-corner .bottom-corner {
-    display: flex;
-
-} */
-
-.top-corner {
-    /* background: -webkit-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;    */
-    margin-left: 4.5rem;
-    justify-content: flex-start;
-    margin-bottom: .3rem;
-    font-weight: 400;
-    font-size: larger;
-}
 
 .top-corner-underline {
     width: 20%;
     font-weight: 300;
 }
 
-/* .bottom-corner {
-    background: -webkit-linear-gradient(180deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;   
-    position: absolute;
-    right: 0;
-    margin-right: 15rem;
-    justify-content: flex-end;
-    margin-top: .3rem;
-} */
+@media screen and (min-width: 763px) and (max-width: 990) {
+    .content-wrapper {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
 
 @media only screen and  (max-width: 420px) {
     section {

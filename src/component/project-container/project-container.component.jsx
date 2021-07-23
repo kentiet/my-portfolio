@@ -8,7 +8,7 @@ import Project from '../project/project.component'
 const ProjectContainer = ({projects}) => (
     <div className="project-wrapper">
         <div className='top-corner' >
-            <p>#03: My Works</p><hr className='top-corner-underline' data-aos="fade-left"/>
+            <p>#02: My Works</p><hr className='top-corner-underline' data-aos="fade-left"/>
         </div>
         
         <div className='project-container'>
@@ -21,7 +21,8 @@ const ProjectContainer = ({projects}) => (
                                 <Project title={project.title}
                                     imgSrc={project.imgSrc}
                                     usedSkill={project.usedSkill}
-                                    link={project.link}/>
+                                    link={project.link}
+                                    description= { project.description}/>
                                 </Tilt>
                              </Fragment> 
                 })

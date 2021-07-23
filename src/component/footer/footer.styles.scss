@@ -1,0 +1,50 @@
+.footer-wrapper { 
+    margin-top: 5rem;
+    margin-left:  auto;
+    margin-right: auto;
+
+    .footer-body { 
+        margin-top: 3rem;
+        font-weight: 300;
+
+        textarea::placeholder, input::placeholder { 
+            font-weight: 300;
+            font-size: small;
+        }
+
+        .btn { 
+            background: transparent;
+            border: 1px solid #000;
+        }
+
+        .fa-icon { 
+            margin-right: 15px;
+            background: -webkit-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .form-group { 
+            border: 1px solid black;
+            margin-bottom: 20px;
+        }
+        
+        .social-wrapper { 
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            max-width: 200px;
+            
+            a { 
+                margin-right: 15px;
+                background: -webkit-linear-gradient(90deg, hsla(333, 100%, 53%, 1) 0%, hsla(33, 94%, 57%, 1) 100%);
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+
+    
+}
