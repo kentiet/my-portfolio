@@ -1,8 +1,9 @@
 import React from 'react'
+import './exp-description.style.scss'
 
 const ExpDescription = ({ title, year, company, tasks}) => { 
   return (
-    <div className="work-exp-wrapper">
+    <>
       <div className="work-exp-header">
             <div className="title-wrapper">
               <img className='exp-bullet' width='30px' height='30px' src="https://img.icons8.com/emoji/48/000000/rocket-emji.png"/>
@@ -19,8 +20,7 @@ const ExpDescription = ({ title, year, company, tasks}) => {
             </li>
           })}
         </ul>
-
-    </div>
+    </>
 )
 }
 

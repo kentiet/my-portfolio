@@ -40,6 +40,23 @@
     }
 }
 
-// svg {
-//     fill: whitesmoke;
-// }
+@media (min-device-width: 375px) and (max-device-width: 812px)  {
+
+    .card-item {
+
+        margin: .3rem;
+        min-height: 4vh;
+        min-width: 2%;
+        height: 40px;
+        width: 75px;
+
+
+        .icon {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-end;
+            font-size: 11px;
+            padding: 10px;
+        }
+    }
+}

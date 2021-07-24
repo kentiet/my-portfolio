@@ -59,21 +59,57 @@
 }
 
 
-@media only screen and  (max-width: 1450px) and (min-width: 401px) {
+// @media only screen and  (max-width: 1450px) and (min-width: 401px) {
+//   .aboutme-body { 
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+
+//     .aboutme-img { 
+//       margin-top: 5%;
+//       margin-left: auto;
+//       margin-right: auto;
+
+//       img { 
+//         border-radius: 50%;
+//       }
+      
+//     }
+//   }
+// }
+
+@media (min-device-width: 375px) and (max-device-width: 812px)  {
   .aboutme-body { 
+    font-size: 11px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    .aboutme-content { 
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%; 
+        
+      .profile-body{ 
+        width: 100%; 
+      }
+    }
 
     .aboutme-img { 
       margin-top: 5%;
       margin-left: auto;
       margin-right: auto;
+      width: 150px;
+      height: 200px;
 
       img { 
         border-radius: 50%;
       }
-      
     }
   }
+
+  .work-exp-body { 
+    font-size:  11px;
+  }
+
 }

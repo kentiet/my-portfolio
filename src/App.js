@@ -68,9 +68,10 @@ function App() {
   return (
     // <div className="container-fluid">
       <div className='row'>
+          <NavBar />
           <div className='content-wrapper'>
             <section id='home' data-aos="fade-right">
-              <NavBar />
+              
               <IntroDiv />
             </section>
             <section id='projects' data-aos="fade-right">

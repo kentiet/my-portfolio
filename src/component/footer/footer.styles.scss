@@ -48,3 +48,24 @@
 
     
 }
+
+@media (min-device-width: 375px) and (max-device-width: 812px)  {
+    .footer-wrapper { 
+        height: 100%;
+        
+        textarea::placeholder, input::placeholder { 
+            font-weight: 300;
+            font-size: 11px;
+        }
+
+        .address-container { 
+            font-size: 11px;
+        }
+
+        .btn { 
+            font-size: 11px;
+            margin-bottom: 10px;
+        }
+    }
+
+}

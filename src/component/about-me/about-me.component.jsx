@@ -37,7 +37,7 @@ const AboutMe = ({ workExp }) => {
                   />
                 )
               })}
-            </div>
+          </div>
         </div>
     // </div>
   )
