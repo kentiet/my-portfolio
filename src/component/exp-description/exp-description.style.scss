@@ -1,5 +1,48 @@
-@media (min-device-width: 375px) and (max-device-width: 812px)  {
-  .work-exp-title { 
+.work-exp-header { 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  .title-wrapper { 
+    display: flex;
+    flex-direction: row;
+
+    .work-exp-title { 
+      font-weight: 700;
+      border-bottom: 1px solid black;
+    }
+  }
+
+  .work-exp-year { 
     font-weight: 700;
+  }
+}
+
+.work-exp-company { 
+  font-style: italic;
+}
+
+@media (min-device-width: 375px) and (max-device-width: 812px)  {
+  .work-exp-header { 
+    display: flex;
+    flex-direction: column;
+  
+    .title-wrapper { 
+      display: flex;
+      flex-direction: row;
+  
+      .work-exp-title { 
+        font-weight: 700;
+        border-bottom: 1px solid black;
+      }
+    }
+  
+    .work-exp-year { 
+      font-weight: 700;
+    }
+  }
+
+  .work-exp-company { 
+    font-style: italic;
   }
 }
