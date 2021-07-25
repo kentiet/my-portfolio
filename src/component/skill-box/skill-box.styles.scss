@@ -40,23 +40,20 @@
     }
 }
 
-@media (min-device-width: 375px) and (max-device-width: 812px)  {
+@media (min-device-width: 340px) and (max-device-width: 812px)  {
 
     .card-item {
 
-        margin: .3rem;
-        min-height: 4vh;
-        min-width: 2%;
-        height: 40px;
-        width: 75px;
+        margin: .5rem;
+        height: 70px;
+        width: 100px;
 
 
         .icon {
             display: flex;
             justify-content: flex-end;
             align-items: flex-end;
-            font-size: 11px;
-            padding: 10px;
+            font-size: 14px;
         }
     }
 }
