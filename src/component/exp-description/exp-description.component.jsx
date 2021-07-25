@@ -6,7 +6,7 @@ const ExpDescription = ({ title, year, company, tasks}) => {
     <>
       <div className="work-exp-header">
             <div className="title-wrapper">
-              <img className='exp-bullet' width='30px' height='30px' src="https://img.icons8.com/emoji/48/000000/rocket-emji.png"/>
+              <img className='exp-bullet' alt="rocket-icon" width='30px' height='30px' src="https://img.icons8.com/emoji/48/000000/rocket-emji.png"/>
               <p className="work-exp-title">{ title }</p>
             </div>
           <p className="work-exp-year">{ year }</p>

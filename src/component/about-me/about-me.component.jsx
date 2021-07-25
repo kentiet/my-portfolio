@@ -14,18 +14,18 @@ const AboutMe = ({ workExp }) => {
         {/* <div className="container-fluid"> */}
           <div className="aboutme-body">
             <div className="aboutme-content">
-            <img src="https://img.icons8.com/doodle/48/000000/document.png"/><p className="aboutme-content-header">Profile: </p>
+            <img src="https://img.icons8.com/doodle/48/000000/document.png" alt="profile-header-icon"/><p className="aboutme-content-header">Profile: </p>
               <p className="profile-body">
                 A software developer who experiences in customer service and information technology offers outstanding outcomes in the fast-paced environment.
               </p>
               <SkillBoxList skills={ skills }/>
             </div>
             <div className="aboutme-img">
-              <img src="https://user-images.githubusercontent.com/16614788/126822925-413f069a-8661-4f11-8d9f-8c194581fb9b.png" alt=""/>
+              <img src="https://user-images.githubusercontent.com/16614788/126822925-413f069a-8661-4f11-8d9f-8c194581fb9b.png" alt="kentiet"/>
             </div>
           </div>
           <div className="work-exp-body">
-              <img src="https://img.icons8.com/doodle/48/000000/document.png"/><p className="work-content-header">Work Experiences: </p>
+              <img src="https://img.icons8.com/doodle/48/000000/document.png" alt="work-exp-header-icon"/><p className="work-content-header">Work Experiences: </p>
               { workExp.map((value, i) => { 
                 return (
                   <ExpDescription 

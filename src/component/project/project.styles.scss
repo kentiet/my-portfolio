@@ -95,13 +95,13 @@
         margin-right: 10px;
     }
 
-    // @media only screen and  (max-width: 420px) {
+    // @media (min-device-width: 401px) and (max-device-width: 920px)  {
     //     .card-project {
     //         display: flex;
     //         flex-direction: column;
     //         align-items: center;
-    //         max-width: 150px;
-    //         max-height: 400px;
+    //         max-width: 200px;
+    //         max-height: 200px;
     //         border-top: 1px solid rgba(255, 255, 255, 0.5) ;
     //         border-left: 1px solid rgba(255, 255, 255, 0.5) ;
     //         backdrop-filter: blur(5px);
@@ -109,88 +109,47 @@
     //         margin: 25px;
     //         border-radius: 20px;
     //         overflow: hidden;
+
+    //         .project-desc {
+    //             display: flex;
+    //             justify-content: center;
+    //             align-items: center;
+    //             flex-direction: column;
+    //             width: 50vh;
+    //             height: 100px;
+    //         }
+
+
     //     }
-        
-    //     .project-desc {
-    //         display: flex;
-    //         justify-content: center;
-    //         align-items: center;
-    //         flex-direction: column;
-    //         width: 30vh;
-    //         height: 100px;
-    //     }
-    
-    //     .skills {
-    //         color: black;
-    //         margin: 3px;
-    //         border-radius: 10px;
-    //         padding: 5px;
-    //         font-size: xx-small;
-    //         font-weight: normal;
-    //         background-color: #f3a51f;
-    //     }
-    
+
     //     h4 {
-    //         font-size: smaller;
+    //         font-size: medium;
     //     }
     // }
 
-    @media (min-device-width: 401px) and (max-device-width: 920px)  {
+    @media (min-device-width: 340px) and (max-device-width: 812px)  {
         .card-project {
             display: flex;
             flex-direction: column;
             align-items: center;
-            max-width: 200px;
-            max-height: 200px;
+            // max-width: 150px;
+            // max-height: 300px;
             border-top: 1px solid rgba(255, 255, 255, 0.5) ;
             border-left: 1px solid rgba(255, 255, 255, 0.5) ;
             backdrop-filter: blur(5px);
             box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
-            margin: 25px;
-            border-radius: 20px;
-            overflow: hidden;
-
-            .project-desc {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-                width: 50vh;
-                height: 100px;
-            }
-
-
-        }
-
-        h4 {
-            font-size: medium;
-        }
-    }
-
-    @media (min-device-width: 375px) and (max-device-width: 812px)  {
-        .card-project {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            max-width: 150px;
-            max-height: 300px;
-            border-top: 1px solid rgba(255, 255, 255, 0.5) ;
-            border-left: 1px solid rgba(255, 255, 255, 0.5) ;
-            backdrop-filter: blur(5px);
-            box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
-            margin: 25px;
             border-radius: 20px;
             overflow: hidden;
         }
 
         .project-image {
-            width: 250px;
+            width: 340px;
             height: 100px;
             background-size: 300px;
             background-repeat: no-repeat;
             filter: grayscale(100%);
-            margin-left: auto;
-            margin-right: auto;
+            padding-left: auto;
+            padding-right: auto;
         }
     
         
