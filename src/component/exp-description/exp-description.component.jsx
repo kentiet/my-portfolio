@@ -14,7 +14,7 @@ const ExpDescription = ({ title, year, company, tasks}) => {
       
       <p className="work-exp-company">{ company }</p>
         <ul className="work-exp-task">
-          { tasks.map((value, key) => { 
+          { tasks.map((value) => { 
             return <li>
               { value }
             </li>

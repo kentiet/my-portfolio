@@ -14,7 +14,6 @@ const SkillBoxList = ({skills}) => (
                         <Tilt options={{ max : 30 , scale: 1.2 , transition: true, easing: "cubic-bezier(.03,.6,0.4,.3)"}}  >
                             <SkillBox key={i} skill={skill}/>
                         </Tilt>
-
                     </Fragment>
                 )
                 

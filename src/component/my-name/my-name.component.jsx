@@ -5,7 +5,7 @@ import anime from 'animejs/lib/anime.es.js';
 class MyName extends Component {
     componentDidMount() {
       var textWrapper = document.querySelector('.ml3');
-      textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter' style='color: #FFCC73;'>$&</span>");
+      textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span className='letter' style='color: #FFCC73;'>$&</span>");
       
       anime.timeline({loop: true})
         .add({
@@ -30,7 +30,7 @@ class MyName extends Component {
                 <h1>Ken Tiet:</h1>
             </div>
             <div className='job-desc'> 
-              <h2 class="ml3">A Professional Full-Stack Developer</h2>
+              <h2 className="ml3">A Professional Full-Stack Developer</h2>
             </div>
           </>
         )
