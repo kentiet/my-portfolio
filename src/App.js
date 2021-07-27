@@ -34,7 +34,7 @@ function App() {
       title: 'Face Recognition',
       imgSrc: 'https://user-images.githubusercontent.com/16614788/106376276-8f6ccf00-6348-11eb-8b19-d6d72ef7c796.png',
       usedSkill: ['React', 'NodeJS', 'Postgres'],
-      link: 'https://kentiet.github.io/free-to-play-games/',
+      link: 'https://github.com/kentiet/face-recognition-project',
       description: 'React app for face recognition'
     }
   ]
