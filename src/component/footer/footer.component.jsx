@@ -53,10 +53,10 @@ const Footer = () => (
                     </li>
                   </ul>
                   <div className="social-wrapper">
-                    <a href="http://www.facebook.com" title="" className="fa-icon">
+                    <a href="https://github.com/kentiet" title="" className="fa-icon">
                       <i className="fa fa-github"></i>
                     </a>
-                    <a href="http://www.twitter.com" title="" className="fa-icon">
+                    <a href="https://www.linkedin.com/in/kentiet" title="" className="fa-icon">
                       <i className="fa fa-linkedin"></i>
                     </a>
                   </div>
